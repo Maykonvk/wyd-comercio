@@ -37,7 +37,7 @@ h2 {
 #navbar img {
   height: 60px;
   position: absolute;
-  top: 2 px;
+  top: 3px;
 }
 
 #navbar nav {
@@ -60,3 +60,35 @@ h2 {
 #navbar-list li a:hover {
   border-bottom: 1px solid #fff;
 }
+/* banner */
+#main-banner {
+    height: 82vh;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    padding-top: 15vh;
+  }
+  
+  #banner-info {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+  }
+  
+  #banner-info img {
+    height: 120px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  #banner-info p {
+    background-color: #030303;
+    font-weight: bold;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+  }
+  
