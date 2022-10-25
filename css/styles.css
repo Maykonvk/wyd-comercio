@@ -279,7 +279,7 @@ footer .detail {
 }
 
 /* responsivo para celulares - media query */
-@media (max-width: 450px) {
+@media (max-width: 450px){
   /* geral */
 
   p,
@@ -287,8 +287,13 @@ footer .detail {
   textarea {
     font-size: 1.2rem;
   }
-
+  
   /* navbar */
+  #navbar img {
+    height: 35px;
+    position: absolute;
+    top: 10px;
+  }
   #navbar h2 {
     display: none;
     top: 9px;
@@ -301,9 +306,7 @@ footer .detail {
   #navbar-list li a {
     font-size: 1.2rem;
   }
-
   /* banner */
-
   #main-banner {
     height: 40vh;
     padding-top: 5vh;
@@ -311,10 +314,20 @@ footer .detail {
   }
   #banner-info {
     width: 60%;
+    padding: 0px;
   }
   #banner-info p {
     margin: 0;
     width: auto;
+  }
+  #banner-info img{
+    display:none;
+  }
+  /* about */
+  #about-section {
+    padding: 2rem;
+    height: auto;
+    padding-bottom: 50px;
   }
   /* about */
   #about-section {
@@ -323,58 +336,4 @@ footer .detail {
     padding-bottom: 50px;
   }
 
-  /*skills */
-  #skills-section {
-    margin-top: -35px;
-    width: 90%;
-  }
-  #skills-section .container {
-    flex-direction: column;
-  }
-
-  .skills-container h3,
-  .skills-container .subtitle {
-    font-size: 1.3rem;
-  }
-
-  .skills-container {
-    padding: 25px;
-  }
-
-  .skills-container.central {
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-  }
-
-  /*jobs */
-
-  #jobs-section h2,
-  #jobs-section p {
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .job-container {
-    flex-direction: column;
-    margin-bottom: 0;
-  }
-
-  .job-box {
-    margin-bottom: 2rem;
-    flex: 1 1 750px;
-  }
-
-  /* footer */
-  footer {
-    padding: 50px 15px;
-  }
-
-  footer form {
-    width: 100%;
-  }
-
-  .detail {
-    margin-top: 10px;
-    display: block;
-  }
-}
+}  
