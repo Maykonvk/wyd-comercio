@@ -209,31 +209,32 @@ h2 {
 
 .job-box {
   flex: 1 1 200px;
+  border-radius: 10%;
   margin-left: 25px;
   margin-right: 25px;
-  height: 753px;
+  height: 400px;
   background-size: cover;
   border-right: 2px solid #ed1e24;
   border-bottom: 2px solid #ed1e24;
 }
 
 .proj1 {
-  background-image: url("../img/Luan\ e\ Helio.jpeg");
+  background-image: url("../img/nathan.jpg");
 }
 .proj2 {
-  background-image: url("../img/Thais.jpeg");
+  background-image: url("../img/maykon.jpg");
 }
 .proj3 {
-  background-image: url("../img/Luan\ e\ Helio.jpeg");
+  background-image: url("../img/");
 }
 .proj4 {
-  background-image: url("../img/duda.png");
+  background-image: url("../img/Daniel.jpeg");
 }
 .proj5 {
-  background-image: url("../img/mk.jpg");
+  background-image: url("../img/");
 }
 .proj6 {
-  background-image: url("../img/snow.png");
+  background-image: url("../img/");
 }
 /*footer */
 
