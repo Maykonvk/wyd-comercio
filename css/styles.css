@@ -279,7 +279,7 @@ footer .detail {
 }
 
 /* responsivo para celulares - media query */
-@media (max-width: 450px){
+@media (max-width: 700px){
   /* geral */
 
   p,
@@ -335,5 +335,10 @@ footer .detail {
     height: auto;
     padding-bottom: 50px;
   }
-
+  #main-banner {
+    height: 70vh;
+    background-image: url("../img/background\ teste.jpg");
+    background-size: cover;
+    padding-top: 15vh;
+  }
 }  
