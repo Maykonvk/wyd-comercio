@@ -94,13 +94,13 @@ h2 {
   /* FIM BANNER */
   /* INICIO CHAT*/ 
   * {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
   }
   
   #chat {
+    background-color: #03030300;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -176,3 +176,204 @@ h2 {
     word-wrap: break-word;
     border-radius: 10px;
   }
+  /* jobs */
+
+#jobs-section {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#jobs-section h2 {
+  color: #ed1e24;
+  margin-bottom: 30px;
+}
+
+#jobs-section p {
+  margin-bottom: 50px;
+}
+
+#jobs-section a {
+  font-weight: bold;
+  color: #ed1e24;
+}
+
+.job-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.job-box {
+  flex: 1 1 200px;
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 753px;
+  background-size: cover;
+  border-right: 2px solid #ed1e24;
+  border-bottom: 2px solid #ed1e24;
+}
+
+.proj1 {
+  background-image: url("../img/Luan\ e\ Helio.jpeg");
+}
+.proj2 {
+  background-image: url("../img/Thais.jpeg");
+}
+.proj3 {
+  background-image: url("../img/Luan\ e\ Helio.jpeg");
+}
+.proj4 {
+  background-image: url("../img/duda.png");
+}
+.proj5 {
+  background-image: url("../img/mk.jpg");
+}
+.proj6 {
+  background-image: url("../img/snow.png");
+}
+/*footer */
+
+footer {
+  padding: 50px 0;
+  background: #ed1e24;
+  color: #fff;
+  text-align: center;
+}
+
+footer img {
+  height: 50px;
+  margin: 30px 0;
+  border-radius: 50%;
+  background-color: #ed1e24;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+footer p {
+  margin-top: 25px;
+}
+
+footer form {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer input,
+footer textarea {
+  border: none;
+  padding: 15px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  width: 100%;
+  display: block;
+}
+
+footer .detail {
+  font-weight: bold;
+}
+
+/* responsivo para celulares - media query */
+@media (max-width: 450px) {
+  /* geral */
+
+  p,
+  input,
+  textarea {
+    font-size: 1.2rem;
+  }
+
+  /* navbar */
+  #navbar h2 {
+    display: none;
+    top: 9px;
+  }
+
+  #navbar ul {
+    margin-top: 1.1rem;
+  }
+
+  #navbar-list li a {
+    font-size: 1.2rem;
+  }
+
+  /* banner */
+
+  #main-banner {
+    height: 40vh;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+  }
+  #banner-info {
+    width: 60%;
+  }
+  #banner-info p {
+    margin: 0;
+    width: auto;
+  }
+  /* about */
+  #about-section {
+    padding: 2rem;
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  /*skills */
+  #skills-section {
+    margin-top: -35px;
+    width: 90%;
+  }
+  #skills-section .container {
+    flex-direction: column;
+  }
+
+  .skills-container h3,
+  .skills-container .subtitle {
+    font-size: 1.3rem;
+  }
+
+  .skills-container {
+    padding: 25px;
+  }
+
+  .skills-container.central {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+  }
+
+  /*jobs */
+
+  #jobs-section h2,
+  #jobs-section p {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .job-container {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .job-box {
+    margin-bottom: 2rem;
+    flex: 1 1 750px;
+  }
+
+  /* footer */
+  footer {
+    padding: 50px 15px;
+  }
+
+  footer form {
+    width: 100%;
+  }
+
+  .detail {
+    margin-top: 10px;
+    display: block;
+  }
+}
